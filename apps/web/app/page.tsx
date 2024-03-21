@@ -55,6 +55,8 @@ export default function Page(): JSX.Element {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
+        <Button className='mt-3 p-4' color='primary' variant='outlined'>Add new Data</Button>
+
         <p>
           examples/basic&nbsp;
           <Code className={styles.code}>web</Code>
@@ -78,9 +80,6 @@ export default function Page(): JSX.Element {
         </div>
       </div>
 
-      <Button appName="web" className={styles.button}>
-        Click me!
-      </Button>
 
       <div className={styles.hero}>
         <div className={styles.heroContent}>
